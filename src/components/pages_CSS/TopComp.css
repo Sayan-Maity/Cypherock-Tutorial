@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+    /* background-color: #0A1018; */
+}
+.topComp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    text-align: end;
+    justify-content: flex-end;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 8rem;
+    background-color: #fff1ab;
+
+}
+.topComp .right{
+    display: flex;
+    flex-direction: column;
+    right: 50rem;
+}
+.topComp .right .synchronize_Box{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.topComp .right .synchronize_Box li{
+    padding: 0.7rem;
+}
+.topComp .right .searchBox{
+    display: flex;
+    flex-direction: row;
+}
+.topComp .right .synchronize_Box li p.synchronize{
+    font-size: 1.2rem;
+    color: #E2C19D;
+    font-weight: 600;
+    
+}
+.topComp .right .searchBox .btn li .barVertical,
+
+.topComp .right .synchronize_Box li .barVertical{
+    background-color: #4b3c2b57;
+    height: 1.3rem;
+    width: 0.1rem;
+    transform: translateY(0.25rem);
+}
+.topComp .right .searchBox li .btn{
+    display: flex;
+    flex-direction: row;
+}
+.topComp .right .synchronize_Box li i{
+    color: #A08362;
+    font-size: 1.4rem;
+}
+.topComp .right .synchronize_Box li i:hover{
+    color: #C78D4E;
+    cursor: pointer;
+}
+.topComp .right .searchBox .search .search_icon i{
+    color: #aaaaaa;
+    z-index: 2;
+    position: absolute;
+    margin: 0.5rem 1rem;
+}
+.topComp .right .searchBox .search .search_icon input{
+    border:2px solid #9a9a9a10;
+    padding: 0.8rem 2.5rem;
+    border-radius: 6px;
+    background-color: #c4c4c413;
+    color: rgb(129, 129, 129);
+}
+.topComp .right .searchBox .btn{
+    display: flex;
+    flex-direction: row;
+    padding: 0.6rem 0;
+    border:2px solid #9a9a9a10;
+    background-color: #c4c4c413;
+    border-radius: 6px;
+    margin: 0 0.7rem;
+    cursor: pointer;
+}
+.topComp .right .searchBox .btn:hover{
+    box-shadow: 0 0 10px rgb(27, 27, 27);
+    background-color: #c4c4c413;
+
+}
+.topComp .right .searchBox .btn li{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.topComp .right .searchBox .btn li p{
+    color: #E2C19D;
+    font-weight: 200;
+
+}
+.topComp .right .searchBox .btn li i{
+    padding-right: 0.5rem;
+    color: #CAA276;
+}
+.topComp .right .searchBox .btn li.yyy:hover{
+    background-color: #c4c4c40b;
+    margin-top: -0.7rem;
+    padding-top: 0.7rem;
+    margin-bottom: -0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 6px;
+}

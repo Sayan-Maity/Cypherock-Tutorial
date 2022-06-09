@@ -1,0 +1,167 @@
+body{
+        background-color: #0A1018;
+
+}
+.bottomComp{
+    display: flex;
+    margin-left: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.upper_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40rem;
+    border-bottom: 2px solid red;
+    width: 92%;
+    margin-left: -4rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    /* background-color: transparent; */
+    background-color: rgb(255, 144, 144);
+}
+.upper_div .total_coin {
+    letter-spacing: 0.1rem;
+    background-color: red;
+    z-index: 1;
+    color: #eee;
+}
+.upper_div .menu-item{
+    background-color: red;
+    padding: 2rem;
+}
+.upper_div .custom-dropdown{
+    padding-top: 10;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 10px;
+    position: relative;
+    z-index: 1;
+    background-color: red;
+    color: #eee;
+}
+.upper_div .custom-dropdown .items-holder{
+    border-radius: 6px;
+    background-color: rgb(255, 168, 168);
+    border: 2px solid red;
+    position: absolute;
+    top: 80%;
+    width: 14rem;
+    text-align: center;
+    left: -2.5rem;
+}
+.upper_div .custom-dropdown .items-holder .dropdown-item{
+    padding: 10px 16px;
+    cursor: pointer;
+}
+.upper_div .custom-dropdown .items-holder .dropdown-item:hover{
+    background-color: rgb(255, 210, 210);
+}
+.upper_div .custom-dropdown-selection{
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+.upper_div .custom-dropdown-selection::after{
+    display: block;
+    content: '';
+    height: 6px;
+    width: 6px;
+    border-right: 2px solid #eee;
+    border-bottom:  2px solid #eee;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -25px;
+    top: 8px;
+}
+.upper_div .custom-dropdown-selection .visible::after{
+    transform: rotate(-135deg);
+    top: 18px;
+}
+
+.lower_div .table_section{
+    height: 650px;
+    width: 95%;
+}
+.table_section table{
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+table thead tr th{
+    top: 0;
+    background-color: rgb(167, 255, 255);
+    color: #333;
+    font-size: 15px;
+    text-align: justify;
+}
+table thead tr th{
+    color: rgb(198, 198, 198);
+}
+tr:hover td{
+    color: rgb(255, 171, 61);
+    background-color: rgb(255, 239, 217);
+}
+td{
+    border-bottom: 1rem solid #eee;
+}
+th, td{
+    background-color: rgb(186, 186, 186);
+    padding: 10px 20px;
+    word-break: keep-all;
+}
+table tbody tr{
+    color: #eee;
+}
+
+
+
+
+
+
+
+.coin{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+    gap: 1rem;
+}
+.coin .image{
+    padding: 0.2rem 0.6rem; 
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.coin .text{
+    align-items: center;
+    display: flex;
+}
+.coin .image img{
+    height: 1.8rem;
+    width: 1.5rem;
+}
+td .transaction{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 179, 179);
+    border-radius: 6px;
+    margin: -0.5rem;
+    padding: 0.5rem;
+}
+td .transaction .transaction_btn{
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem 0.55rem;
+    cursor: pointer;
+    color: rgba(43, 255, 0, 0.933);
+}
+td .transaction .transaction_btn i{
+    padding: 0 0.3rem;
+}
+td .transaction .verticalBar{
+    height: 1.3rem;
+    width: 0.1rem;
+    background-color: #333;
+ transform: translateY(0.3rem);   
+}

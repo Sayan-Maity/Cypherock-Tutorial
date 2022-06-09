@@ -1,24 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import SideMenu from './components/SideMenu';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import Portfolio from './components/pages/Portfolio';
+import Last_Transaction from './components/pages/Last_Transaction';
+import Wallet_1 from './components/pages/Wallet_1';
+import Wallet_2 from './components/pages/Wallet_2';
+import Wallet_3 from './components/pages/Wallet_3';
+import Tutorial from './components/pages/Tutorial';
+import Setting from './components/pages/Setting';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <Router>
+          <SideMenu />
+          <Switch>
+            <Route exact path={'/'}>
+              <Portfolio />
+            </Route>
+            <Route exact path={'/wallet/wallet-1'}>
+              <Wallet_1 />
+            </Route>
+            <Route exact path={'/wallet/wallet-2'}>
+              <Wallet_2 />
+            </Route>
+            <Route exact path={'/wallet/wallet-3'}>
+              <Wallet_3 />
+            </Route>
+            <Route exact path={'/last-transaction'}>
+              <Last_Transaction />
+            </Route>
+            <Route exact path={'/tutorials'}>
+              <Tutorial />
+            </Route>
+            <Route exact path={'/setting'}>
+              <Setting />
+            </Route>
+            {/* <Route path="*" element={<Notfound />} /> */}
+          </Switch>
+        </Router>
+      </div>
+    </>
   );
 }
 
