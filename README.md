@@ -26,11 +26,13 @@
    ```
    
    ```sh
-   react-router-dom
-   react-player
-   bootstrap-icons
-   react-icons
-   nodemon
+   { 
+     react-router-dom
+     react-player
+     bootstrap-icons
+     react-icons
+     nodemon
+    }
    ```
 
 4. Start the development server
