@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image1](https://github.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image1.jpg)
+![image1](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image1.jpg)
 ![image2](https://github.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image2.jpg)
 ![image3](https://github.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image3.jpg)
 ![image4](https://github.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image4.jpg)
