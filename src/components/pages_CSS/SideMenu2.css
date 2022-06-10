@@ -56,13 +56,17 @@
     color: #E7E7E7;
     border-radius: 6px;
     transition: all 0.3s ease-in-out;
-}
-.side-menu .main-menuu ul li.list:hover{
-      background-color: #43434317;
-}
+  }
+  .side-menu .main-menuu ul li.list:hover{
+    background-color: #43434317;
+  }
+  .side-menu .main-menuu ul li.list a{
+    text-decoration: none;
+    color: #E7E7E7;
+  }
 .side-menu .main-menuu ul li.list ul li{
       margin-left: 1rem;
-      padding: 0.2rem 1rem !important;
+      padding: 0.3rem 1rem !important;
       text-decoration: none;
       border-radius: 6px;
       font-size: 0.8rem;

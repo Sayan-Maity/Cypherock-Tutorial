@@ -102,10 +102,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>
@@ -130,10 +134,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>
@@ -158,10 +166,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>
@@ -186,10 +198,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>
@@ -214,10 +230,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>
@@ -242,10 +262,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>
@@ -270,10 +294,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>
@@ -298,10 +326,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>
@@ -326,10 +358,14 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
                       <div className="transaction_btn">
                         <i class="bi bi-arrow-up-right"></i>

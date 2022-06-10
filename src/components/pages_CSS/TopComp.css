@@ -34,7 +34,7 @@ body{
 .topComp .right .synchronize_Box li p.synchronize{
     font-size: 1.2rem;
     color: #E2C19D;
-    font-weight: 600;
+    font-weight: 500;
     
 }
 .topComp .right .searchBox .btn li .barVertical,
@@ -61,7 +61,7 @@ body{
     color: #aaaaaa;
     z-index: 2;
     position: absolute;
-    margin: 0.65rem 0rem;
+    margin: 0.65rem 1.6rem;
 }
 .topComp .right .searchBox .search .search_icon input{
     border:2px solid #9a9a9a10;
@@ -70,9 +70,6 @@ body{
     background-color: #c4c4c413;
     color: rgb(129, 129, 129);
     outline: none;
-}
-.topComp .right .searchBox .search .search_icon input:placeholder-shown{
-    margin-left: -1.4rem;
     padding-right: 12rem;
 }
 .topComp .right .searchBox .btn{

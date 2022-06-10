@@ -1,5 +1,6 @@
 import React from 'react';
 import './pages_CSS/SideMenu2.css';
+import { NavLink } from 'react-router-dom';
 
 const SideMenu = (props) => {
   return (
@@ -29,13 +30,19 @@ const SideMenu = (props) => {
             </li>
 
             <li className="list">
-              <a>Last Transaction</a>
+              <NavLink exact to="/last-transaction">
+                Last Transaction
+              </NavLink>
             </li>
             <li className="list">
-              <a>Tutorial</a>
+              <NavLink exact to="/tutorials">
+                Tutorial
+              </NavLink>
             </li>
             <li className="list">
-              <a>Setting</a>
+              <NavLink exact to="/setting">
+                Setting
+              </NavLink>
             </li>
           </ul>
         </div>

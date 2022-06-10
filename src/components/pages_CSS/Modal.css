@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.662);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 15;
+    cursor: pointer;
+}
+.modalContainer{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: #121619;
+    box-shadow: 0 0 18px 0px rgba(0, 0, 0, 0.75);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 6px;
+
+
+}
+
+/* ======================  Top Div starts here  ==================== */
+
+.modalContainer .topDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #333 !important;
+    padding: 1rem 0;
+}
+.modalContainer .topDiv .heading{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #f7f8f9;
+}
+.modalContainer .topDiv .close_btn{
+    position: fixed;
+    right: 3rem;
+    top: 2.2rem;
+    color: #7d8085;
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.1rem 0.4rem;
+    background-color: transparent;
+    transition: all 0.2s ease-out;
+}
+.modalContainer .topDiv .close_btn:hover{
+    color: #bcc0c6;
+    background-color: #191f23;
+}
+/* ======================  Top Div ends here  ==================== */
+
+
+/* ======================  Middle Div starts here  ==================== */
+
+.modalContainer .middleDiv .col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #333 !important;
+    
+}
+/* ========================  Line of Receive changes Styles starts here ========================== */
+.modalContainer .middleDiv .col .line{
+    background-color: #a2a1a15d;
+    width: 8rem;
+    height: 1px;
+    justify-content: center;
+    transform: translateY(1rem);
+}
+.modalContainer .middleDiv .col .device .icon{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    border: 2px dotted #E19A4C;
+}
+.modalContainer .middleDiv .col .receive .icon,
+.modalContainer .middleDiv .col .verification .icon{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+}
+.modalContainer .middleDiv .col .device .icon span{
+    margin: 0.1rem;
+    padding: 0.1rem;
+    border-radius: 50%;
+    padding: 0rem 0.4rem;
+    color: #121619;
+    background-color: #E19A4C;
+    border: 1px solid #121619;
+}
+.modalContainer .middleDiv .col .receive .icon span,
+.modalContainer .middleDiv .col .verification .icon span{
+    margin: 0.1rem;
+    padding: 0.1rem;
+    border-radius: 50%;
+    padding: 0rem 0.4rem;
+    color: #7d8085;
+    background-color: #121619;
+    border: 1px solid #7d8085;
+}
+/* ========================  Line of Receive changes Styles ends here  ========================== */
+
+.middleDiv .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 0.4rem;
+}
+.middleDiv .row  .device span,
+.middleDiv .row  .receive span,
+.middleDiv .row  .verification span{
+    color: #848589;
+    font-size: 0.8rem;
+}
+.middleDiv .row .line{
+    width: 6.3rem;
+}
+/* ======================  Middle Div ends here  ==================== */
+
+
+
+/* ======================  Bottom Div starts here  ==================== */
+.modalContainer .bottomDiv{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    color: #333 !important;
+    padding: 1rem 4rem;
+    padding-bottom: 5rem;
+}
+.modalContainer .bottomDiv .description{
+    padding: 0.4rem 1.5rem;
+    font-size: 0.9rem;
+    color: #7d8085;
+    
+}
+.modalContainer .bottomDiv .second_bar,
+.modalContainer .bottomDiv .first_bar,
+.modalContainer .bottomDiv .third_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #1b1f22;
+    padding: 0.8rem 1rem;
+    justify-content: space-between;
+    margin: 0.4rem 0;
+    border-radius: 6px;
+}
+.modalContainer .bottomDiv .second_bar .left,
+.modalContainer .bottomDiv .first_bar .left,
+.modalContainer .bottomDiv .third_bar .left{
+    display: flex;
+    flex-direction: row;
+
+}
+.modalContainer .bottomDiv .second_bar .left p,
+.modalContainer .bottomDiv .first_bar .left p,
+.modalContainer .bottomDiv .third_bar .left p{
+    padding: 0 0.3rem;
+    color: #A4A9D6;
+}
+/* ======================  Bottom Div ends here  ==================== */

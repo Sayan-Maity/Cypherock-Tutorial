@@ -1,0 +1,82 @@
+body{
+    overflow-x: hidden;
+    /* background-color: #0A1018; */
+}
+.topComp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    text-align: end;
+    justify-content: flex-end;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+    /* background-color: #fff1ab; */
+
+}
+.topComp .right{
+    display: flex;
+    flex-direction: column;
+    right: 50rem;
+}
+.topComp .right .synchronize_Box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.topComp .right .synchronize_Box2 li{
+    padding: 0.7rem;
+}
+.topComp .right .searchBox{
+    display: flex;
+    flex-direction: row;
+}
+.topComp .right .synchronize_Box2 li p.synchronize{
+    font-size: 1.2rem;
+    color: #E2C19D;
+    font-weight: 500;
+    padding-right: 2.5rem;
+    
+}
+.topComp .right .searchBox li .btn{
+    display: flex;
+    flex-direction: row;
+}
+.topComp .right .synchronize_Box2 li{
+/* background-color: red; */
+}
+.topComp .right .synchronize_Box2 li i{
+    cursor: pointer;
+}
+.topComp .right .synchronize_Box2 li:nth-child(1) i{
+    color: #4848F6;
+}
+.topComp .right .synchronize_Box2 li:nth-child(3) i,
+.topComp .right .synchronize_Box2 li:nth-child(4) i{
+    color: #A08362;
+    font-size: 1.2rem  !important;
+    background-color: #1A212B;
+    padding: 0.2rem 0.3rem;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+.topComp .right .synchronize_Box2 li:nth-child(3) i:hover,
+.topComp .right .synchronize_Box2 li:nth-child(4) i:hover{
+    color: #C78D4E;
+}
+
+.right .add_coin{
+    color: #BEB4A8;
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+}
+.right .add_coin .icon{
+    background-color: #161C23;
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
