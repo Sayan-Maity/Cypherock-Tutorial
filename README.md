@@ -6,7 +6,10 @@
   cypherock.com/frontend-assignment
 </h1>
 <p align="center">
-  This dashboard is made using ``ReactJS``, HTML and CSS
+  This dashboard is made using ReactJS, HTML and CSS
+</p>
+<p align="center">
+  Go through all the images below to have a clear idea about the Frontend or UI of the Dashboard
 </p>
 
 
