@@ -1,5 +1,6 @@
 import './App.css';
 import SideMenu from './components/SideMenu';
+import './components/pages_CSS/SideMenu.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Switch, Route } from 'react-router-dom';
 import Portfolio from './components/pages/Portfolio';

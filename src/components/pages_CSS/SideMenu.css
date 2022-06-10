@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .side-menu{
+    margin-top: 3rem;
+    border-radius: 10px;
+    position: fixed;
+    background: #161C23;
+    width: 250px;
+    height: 94vh;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    transition: width .2s ease-in;
+    z-index: 10;
+  }
+  .side-menu .top-section{
+    display: flex;
+    padding-top: 2.5rem;
+    color: #eee;
+  }
+  .side-menu .top-section p{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  .side-menu .top-section .icon_link{
+    padding: 5px;
+    background-color: #4b3c2b2e;
+    border-radius: 3px;
+    margin-left: 1rem;
+    color: #eee ;
+  }
+  
+  .side-menu .divider{
+    height: 1.5px;
+    display: flex;
+    width: 95%;
+    background-color: #4b3c2b2e;
+    margin: 1rem auto;
+    border-radius: 2px;
+  }
+  .side-menu .main-menu ul li .menu-item{
+    width: 100%;
+  }
+  /* ============|||||||||||||||=========== */
+  .side-menu .main-menu ul li{
+    padding-top: 1rem;
+    margin-top: -1rem;
+  }
+  .side-menu .main-menu ul li:hover{
+    background-color: #43434317;
+  }
+  .side-menu .main-menu ul li .menu-item.active{
+    align-items: center;
+    text-align: center;
+    border-left: 4px solid #A08362;
+    border-radius: 2px;
+    padding-left: 31.2px;
+    margin-left: -2.2rem;
+    padding-top: 0.5rem;
+    margin-top: -0.5rem;
+    padding-top: 1rem;
+    margin-top: -1rem;
+  }
+  /* ============|||||||||||||||||=========== */
+  .side-menu .main-menu ul li {
+    padding-left: 1rem;
+  }
+  .side-menu .main-menu ul li ul li.sub-menu-li{
+    margin-bottom: 1.8rem;
+    line-height: 1.4rem;
+    transform: translateY(1rem);
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  
+  /* =====  Dropdown Toggle Function CSS starts here  ===== */
+  
+  
+  .side-menu .main-menu ul li ul.sub-menu{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-in;
+  }
+  .side-menu .main-menu ul li ul.sub-menu.active{
+    max-height: 200px;
+  }
+  
+  .side-menu .main-menu ul li ul.sub-menu li span{
+    color: #F5CEA3;
+    padding-left: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transform: translateY(-0.4rem);
+  }
+  /* =====  Dropdown Toggle Function CSS ends here  ===== */
+  
+  .side-menu .main-menu ul li ul.sub-menu li a{
+    color: #eee;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-left: 2.5rem;
+    margin-bottom: -1.2rem;
+  }
+  .side-menu .main-menu ul li ul.sub-menu li:nth-child(1){
+    padding-top: 0.5rem;
+  }
+  .side-menu .main-menu a{
+    color: #eee;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+  }
+  .side-menu .main-menu a .nav_icon{
+    padding: 3.2px 6px;
+    background-color: #4b3c2b2e;
+    border-radius: 3px;
+    color: #eee ;
+    margin-right: 1rem;
+  }
+  .side-menu .button{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+  
+  }
+  .side-menu .button a{
+    padding: 0.6rem 1.5rem;
+    border: 1px solid #5151FF;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #eee;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #9898FF;
+  }
+  
+  .side-menu .button a:hover{
+    background-color: #5151ff16;
+    color: #9898FF;
+  }
+  .bottom-section{
+    width: 100%;
+    height: 3.2rem;
+    background-color: #4b3c2b;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom-section p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+  }
+  .bottom-section:hover p{
+    color: #fff;
+    text-shadow: 0px 0px 5px rgb(119, 119, 119);
+    cursor: pointer;
+  }
+  
