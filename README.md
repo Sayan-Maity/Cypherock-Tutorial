@@ -24,14 +24,14 @@
    ```sh
    npm install 
    ```
-   
+   Dependencies used here are -->
    ```sh
    { 
-     react-router-dom
-     react-player
-     bootstrap-icons
-     react-icons
-     nodemon
+     react-router-dom : "^5.3.3",
+     react-player : "^2.10.1",
+     bootstrap-icons : "^1.8.3",
+     react-icons : "^4.4.0",
+     nodemon : "^2.0.16"
     }
    ```
 
