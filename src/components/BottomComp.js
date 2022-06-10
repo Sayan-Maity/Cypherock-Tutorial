@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './pages_CSS/BottomComp.css';
+import { Link, NavLink } from 'react-router-dom';
 import bitcoin from '../assets/bitcoin.webp';
 import binance from '../assets/binance.png';
 import ethereum from '../assets/ethereum.png';
@@ -33,7 +34,7 @@ const BottomComp = () => {
       <div className="bottomComp">
         <div className="upper_div">
           <div className="total_coin">
-            <p>Total Coin-7</p>
+            <p>Total Coin - 10</p>
           </div>
           {/* The custom Dropdown starts here */}
           <div className="custom-dropdown">
@@ -117,14 +118,42 @@ const BottomComp = () => {
                   <td>
                     <div className="coin">
                       <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
+                        <img src={ethereum} alt="bitcoin_img" />
                       </div>
                       <div className="text">
-                        <p>Bitcoin</p>
+                        <p>ETHEREUM</p>
                       </div>
                     </div>
                   </td>
-                  <td>BTC0.00256</td>
+                  <td>ETH0.0025600</td>
+                  <td>$0.5268</td>
+                  <td>1.2586</td>
+                  <td>
+                    <div className="transaction">
+                      <div className="transaction_btn">
+                        <i class="bi bi-arrow-down-left"></i>
+                        <p>Receive</p>
+                      </div>
+                      <div className="verticalBar"></div>
+                      <div className="transaction_btn">
+                        <i class="bi bi-arrow-up-right"></i>
+                        <p>Send</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div className="coin">
+                      <div className="image">
+                        <img src={binance} alt="bitcoin_img" />
+                      </div>
+                      <div className="text">
+                        <p>BINANCE</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>BNB0.0025600</td>
                   <td>$0.5268</td>
                   <td>1.2586</td>
                   <td>
@@ -173,14 +202,42 @@ const BottomComp = () => {
                   <td>
                     <div className="coin">
                       <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
+                        <img src={ethereum} alt="bitcoin_img" />
                       </div>
                       <div className="text">
-                        <p>Bitcoin</p>
+                        <p>ETHEREUM</p>
                       </div>
                     </div>
                   </td>
-                  <td>BTC0.00256</td>
+                  <td>ETH0.0025600</td>
+                  <td>$0.5268</td>
+                  <td>1.2586</td>
+                  <td>
+                    <div className="transaction">
+                      <div className="transaction_btn">
+                        <i class="bi bi-arrow-down-left"></i>
+                        <p>Receive</p>
+                      </div>
+                      <div className="verticalBar"></div>
+                      <div className="transaction_btn">
+                        <i class="bi bi-arrow-up-right"></i>
+                        <p>Send</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div className="coin">
+                      <div className="image">
+                        <img src={binance} alt="bitcoin_img" />
+                      </div>
+                      <div className="text">
+                        <p>BINANCE</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>BNB0.0025600</td>
                   <td>$0.5268</td>
                   <td>1.2586</td>
                   <td>
@@ -229,14 +286,42 @@ const BottomComp = () => {
                   <td>
                     <div className="coin">
                       <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
+                        <img src={ethereum} alt="bitcoin_img" />
                       </div>
                       <div className="text">
-                        <p>Bitcoin</p>
+                        <p>ETHEREUM</p>
                       </div>
                     </div>
                   </td>
-                  <td>BTC0.00256</td>
+                  <td>ETH0.0025600</td>
+                  <td>$0.5268</td>
+                  <td>1.2586</td>
+                  <td>
+                    <div className="transaction">
+                      <div className="transaction_btn">
+                        <i class="bi bi-arrow-down-left"></i>
+                        <p>Receive</p>
+                      </div>
+                      <div className="verticalBar"></div>
+                      <div className="transaction_btn">
+                        <i class="bi bi-arrow-up-right"></i>
+                        <p>Send</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div className="coin">
+                      <div className="image">
+                        <img src={binance} alt="bitcoin_img" />
+                      </div>
+                      <div className="text">
+                        <p>BINANCE</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>BNB0.0025600</td>
                   <td>$0.5268</td>
                   <td>1.2586</td>
                   <td>
@@ -269,183 +354,19 @@ const BottomComp = () => {
                   <td>1.2586</td>
                   <td>
                     <div className="transaction">
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-down-left"></i>
-                        <p>Receive</p>
-                      </div>
-                      <div className="verticalBar"></div>
-                      <div className="transaction_btn">
+                      <NavLink
+                        exact
+                        to="/wallet/wallet-1/receive"
+                        className="transaction_btn"
+                      >
                         <i class="bi bi-arrow-up-right"></i>
-                        <p>Send</p>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div className="coin">
-                      <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
-                      </div>
-                      <div className="text">
-                        <p>Bitcoin</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td>BTC0.00256</td>
-                  <td>$0.5268</td>
-                  <td>1.2586</td>
-                  <td>
-                    <div className="transaction">
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-down-left"></i>
                         <p>Receive</p>
-                      </div>
+                      </NavLink>
                       <div className="verticalBar"></div>
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-up-right"></i>
-                        <p>Send</p>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div className="coin">
-                      <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
-                      </div>
-                      <div className="text">
-                        <p>Bitcoin</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td>BTC0.00256</td>
-                  <td>$0.5268</td>
-                  <td>1.2586</td>
-                  <td>
-                    <div className="transaction">
-                      <div className="transaction_btn">
+                      <a className="transaction_btn">
                         <i class="bi bi-arrow-down-left"></i>
-                        <p>Receive</p>
-                      </div>
-                      <div className="verticalBar"></div>
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-up-right"></i>
                         <p>Send</p>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div className="coin">
-                      <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
-                      </div>
-                      <div className="text">
-                        <p>Bitcoin</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td>BTC0.00256</td>
-                  <td>$0.5268</td>
-                  <td>1.2586</td>
-                  <td>
-                    <div className="transaction">
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-down-left"></i>
-                        <p>Receive</p>
-                      </div>
-                      <div className="verticalBar"></div>
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-up-right"></i>
-                        <p>Send</p>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div className="coin">
-                      <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
-                      </div>
-                      <div className="text">
-                        <p>Bitcoin</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td>BTC0.00256</td>
-                  <td>$0.5268</td>
-                  <td>1.2586</td>
-                  <td>
-                    <div className="transaction">
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-down-left"></i>
-                        <p>Receive</p>
-                      </div>
-                      <div className="verticalBar"></div>
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-up-right"></i>
-                        <p>Send</p>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div className="coin">
-                      <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
-                      </div>
-                      <div className="text">
-                        <p>Bitcoin</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td>BTC0.00256</td>
-                  <td>$0.5268</td>
-                  <td>1.2586</td>
-                  <td>
-                    <div className="transaction">
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-down-left"></i>
-                        <p>Receive</p>
-                      </div>
-                      <div className="verticalBar"></div>
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-up-right"></i>
-                        <p>Send</p>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div className="coin">
-                      <div className="image">
-                        <img src={bitcoin} alt="bitcoin_img" />
-                      </div>
-                      <div className="text">
-                        <p>Bitcoin</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td>BTC0.00256</td>
-                  <td>$0.5268</td>
-                  <td>1.2586</td>
-                  <td>
-                    <div className="transaction">
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-down-left"></i>
-                        <p>Receive</p>
-                      </div>
-                      <div className="verticalBar"></div>
-                      <div className="transaction_btn">
-                        <i class="bi bi-arrow-up-right"></i>
-                        <p>Send</p>
-                      </div>
+                      </a>
                     </div>
                   </td>
                 </tr>

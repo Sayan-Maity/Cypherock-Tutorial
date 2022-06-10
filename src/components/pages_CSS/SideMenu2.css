@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  /* ================  'Side Navbar' starts here  ============== */
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .side-menu{
+    margin-top: 3rem;
+    border-radius: 10px;
+    position: fixed;
+    background: #161C23;
+    width: 250px;
+    height: 94vh;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    transition: width .2s ease-in;
+    z-index: 10;
+  }
+  .side-menu .top-section{
+    display: flex;
+    padding-top: 2.5rem;
+    color: #eee;
+  }
+  .side-menu .top-section p{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  .side-menu .top-section .icon_link{
+    padding: 5px;
+    background-color: #4b3c2b2e;
+    border-radius: 3px;
+    margin-left: 1rem;
+    color: #eee ;
+  }
+
+  .side-menu .main-menu ul li .menu-item{
+    width: 100%;
+  }
+  /* ============|||||||||||||||=========== */
+  .side-menu .main-menuu ul li.list{
+    margin-top: -1rem;
+    padding: 0.9rem 1.5rem;
+    margin: 0.4rem 0;
+    text-decoration: none;
+    color: #E7E7E7;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+.side-menu .main-menuu ul li.list:hover{
+      background-color: #43434317;
+}
+.side-menu .main-menuu ul li.list ul li{
+      margin-left: 1rem;
+      padding: 0.2rem 1rem !important;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+.side-menu .main-menuu ul li.list ul li:hover{
+    background-color: #43434311;
+}
+.side-menu .main-menuu ul li.list ul li a.add_wallet{
+    border: 2px dotted #616161;
+    color: #616161;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    padding: 0.1rem ;
+    justify-content: center;
+    text-transform: lowercase;
+    letter-spacing: 0;
+}
+.side-menu .main-menuu ul li.list ul li a.wallet_active_color{
+        color: #C78D4E !important;
+    }
+.side-menu .main-menuu ul li ul li a.add_wallet{
+        display: flex;
+        flex-direction: row;
+    }
+.side-menu .main-menu ul li:hover{
+    background-color: #43434317;
+  }
+
+
+  
+
+  
+  .bottom-sectionn{
+    width: 80%;
+    height: 3.2rem;
+    background-color: #4b3c2b;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 4rem;
+    left: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom-sectionn p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+  }
+  .bottom-sectionn:hover p{
+    color: rgb(255, 0, 0);
+    text-shadow: 0px 0px 5px rgb(119, 119, 119);
+    cursor: pointer;
+  }
+   

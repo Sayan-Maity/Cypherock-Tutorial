@@ -10,8 +10,8 @@ body{
     justify-content: flex-end;
     padding-top: 3rem;
     padding-bottom: 2rem;
-    padding-right: 8rem;
-    background-color: #fff1ab;
+    padding-right: 3rem;
+    /* background-color: #fff1ab; */
 
 }
 .topComp .right{
@@ -61,14 +61,19 @@ body{
     color: #aaaaaa;
     z-index: 2;
     position: absolute;
-    margin: 0.5rem 1rem;
+    margin: 0.65rem 0rem;
 }
 .topComp .right .searchBox .search .search_icon input{
     border:2px solid #9a9a9a10;
-    padding: 0.8rem 2.5rem;
+    padding: 0.8rem 3.2rem;
     border-radius: 6px;
     background-color: #c4c4c413;
     color: rgb(129, 129, 129);
+    outline: none;
+}
+.topComp .right .searchBox .search .search_icon input:placeholder-shown{
+    margin-left: -1.4rem;
+    padding-right: 12rem;
 }
 .topComp .right .searchBox .btn{
     display: flex;

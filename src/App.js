@@ -9,6 +9,7 @@ import Wallet_2 from './components/pages/Wallet_2';
 import Wallet_3 from './components/pages/Wallet_3';
 import Tutorial from './components/pages/Tutorial';
 import Setting from './components/pages/Setting';
+import Receive from './components/pages/Receive';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
             </Route>
             <Route exact path={'/setting'}>
               <Setting />
+            </Route>
+            <Route exact path={'/wallet/wallet-1/receive'}>
+              <Receive />
             </Route>
             {/* <Route path="*" element={<Notfound />} /> */}
           </Switch>
