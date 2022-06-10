@@ -21,11 +21,6 @@ const menuItems = [
     iconClassName: 'bi-arrow-left-right',
   },
   {
-    name: 'Last Transaction',
-    to: `/last-transaction`,
-    iconClassName: 'bi-arrow-left-right',
-  },
-  {
     name: 'Tutorials',
     to: `/tutorials`,
     iconClassName: 'bi-play-btn',
