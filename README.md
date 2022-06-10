@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image1](https://raw.githubusercontent.com/bchiang7/v4/main/src/assets/readmeImages/image1.jpg)
+![image1](https://github.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image1.jpg)
 
 
 ## Available Scripts
