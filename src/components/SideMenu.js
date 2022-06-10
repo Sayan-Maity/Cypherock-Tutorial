@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiExternalLink } from 'react-icons/fi';
 import MenuItem from './MenuItem';
+import { NavLink } from 'react-router-dom';
 
 const menuItems = [
   {
@@ -31,10 +32,10 @@ const SideMenu = (props) => {
   return (
     <>
       <div className="side-menu">
-        <div className="top-section">
+        <NavLink exact to="/" className="top-section">
           <FiExternalLink className="icon_link" />
           <p>Portfolio</p>
-        </div>
+        </NavLink>
         <div className="divider"></div>
 
         <div className="main-menu">
@@ -49,39 +50,6 @@ const SideMenu = (props) => {
                 iconClassName={menuItem.iconClassName}
               />
             ))}
-
-            {/* <MenuItem
-              name={'Wallet'}
-              subMenus={[
-                { name: 'Wallet 1' },
-                { name: 'Wallet 2' },
-                { name: 'Wallet 3' },
-              ]}
-            />
-            <li>
-              <a href="">
-                <div className="nav_icon">
-                  <i class="bi bi-arrow-left-right"></i>
-                </div>
-                Last Transaction
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <div className="nav_icon">
-                  <i class="bi bi-play-btn"></i>
-                </div>
-                Tutorial
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <div className="nav_icon">
-                  <i class="bi bi-wrench"></i>
-                </div>
-                Setting
-              </a>
-            </li> */}
           </ul>
         </div>
 
@@ -97,23 +65,3 @@ const SideMenu = (props) => {
 };
 
 export default SideMenu;
-// {menuItems.map((menuItem, index) => (
-//   <MenuItem
-//     key={index}
-//     name={menuItem.name}
-//     to={menuItem.to}
-//     subMenu={menuItem.subMenu || []}
-//   />
-// ))}
-{
-  /* <ul>
-<MenuItem
-  name={'Wallet'}
-  subMenu={[
-    { name: 'Wallet 1' },
-    { name: 'Wallet 2' },
-    { name: 'Wallet 3' },
-  ]}
-/>
-</ul> */
-}

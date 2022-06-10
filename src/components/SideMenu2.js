@@ -6,9 +6,9 @@ const SideMenu = (props) => {
   return (
     <>
       <div className="side-menu">
-        <div className="top-section">
+        <NavLink exact to="/" className="top-section">
           <p>Portfolio</p>
-        </div>
+        </NavLink>
 
         <div className="main-menuu">
           <ul>

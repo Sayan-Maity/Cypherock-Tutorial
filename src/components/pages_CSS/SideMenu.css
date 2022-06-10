@@ -51,14 +51,18 @@
     margin: 1rem auto;
     border-radius: 2px;
   }
+  .side-menu a{
+    text-decoration: none;
+  }
   .side-menu .main-menu ul li .menu-item{
     width: 100%;
   }
-  /* ============|||||||||||||||=========== */
   .side-menu .main-menu ul li{
-    padding-top: 1rem;
-    margin-top: -1rem;
-  }
+      padding-top: 1rem;
+      margin-top: -1rem;
+      text-decoration: none;
+    }
+
   .side-menu .main-menu ul li:hover{
     background-color: #43434317;
   }
@@ -74,7 +78,6 @@
     padding-top: 1rem;
     margin-top: -1rem;
   }
-  /* ============|||||||||||||||||=========== */
   .side-menu .main-menu ul li {
     padding-left: 1rem;
   }

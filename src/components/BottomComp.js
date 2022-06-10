@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './pages_CSS/BottomComp.css';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import bitcoin from '../assets/bitcoin.webp';
 import binance from '../assets/binance.png';
 import ethereum from '../assets/ethereum.png';

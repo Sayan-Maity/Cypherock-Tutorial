@@ -1,0 +1,24 @@
+.container .tt{
+    margin-top: -5rem;
+}
+.container p.sub_title{
+    color: #9b9da1;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 17rem;
+    text-decoration: underline;
+    word-spacing: 5px;
+}
+.container p.sub_title b{
+    padding-left: 1rem;
+}
+.container p.sub_title i{
+    padding-left: 1rem;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 17rem;
+}
