@@ -9,8 +9,11 @@
   This dashboard is made using ReactJS, HTML and CSS
 </p>
 <p align="center">
+  <img src="https://media0.giphy.com/media/Yx17W03kc8QSsbLBcb/giphy.gif?cid=ecf05e47w5pl0zoowssommrnea77o2x0utbsogisnmu2bfrr&rid=giphy.gif&ct=s" width="34">&nbsp;
   Go through all the images below to have a clear idea about the Frontend or UI of the Dashboard
+&nbsp;<img src="https://media0.giphy.com/media/Yx17W03kc8QSsbLBcb/giphy.gif?cid=ecf05e47w5pl0zoowssommrnea77o2x0utbsogisnmu2bfrr&rid=giphy.gif&ct=s" width="34">
 </p>
+
 
 
 ![image1](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image1.jpg) 
