@@ -173,12 +173,26 @@
 .modalContainer .bottomDiv .third_bar .left{
     display: flex;
     flex-direction: row;
-
+    
+}
+.modalContainer .bottomDiv .second_bar .left i,
+.modalContainer .bottomDiv .first_bar .left i,
+.modalContainer .bottomDiv .third_bar .left i{
+    color: #E19A4C;
+}
+.modalContainer .bottomDiv .second_bar  i,
+.modalContainer .bottomDiv .first_bar  i,
+.modalContainer .bottomDiv .third_bar  i {
+    color: rgb(206, 206, 206);
+    font-size: 1.1rem;
 }
 .modalContainer .bottomDiv .second_bar .left p,
 .modalContainer .bottomDiv .first_bar .left p,
 .modalContainer .bottomDiv .third_bar .left p{
-    padding: 0 0.3rem;
+    padding: 0 1rem;
     color: #A4A9D6;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    word-spacing: 0.15rem;
 }
 /* ======================  Bottom Div ends here  ==================== */
