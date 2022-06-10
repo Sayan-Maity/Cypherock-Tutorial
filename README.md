@@ -6,7 +6,7 @@
   cypherock.com/frontend-assignment
 </h1>
 <p align="center">
-  This dashboard is made using ```ReactJS```, HTML and CSS
+  This dashboard is made using ``ReactJS``, HTML and CSS
 </p>
 
 
