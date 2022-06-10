@@ -19,22 +19,18 @@
 
 ## 🛠 Installation & Set Up
 
-1. Install the Gatsby CLI
+1. Install all the Node Modules and dependencies
 
    ```sh
-   npm install -g gatsby-cli
+   npm install 
    ```
-
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
-
+   
    ```sh
-   nvm install
-   ```
-
-3. Install dependencies
-
-   ```sh
-   yarn
+   react-router-dom
+   react-player
+   bootstrap-icons
+   react-icons
+   nodemon
    ```
 
 4. Start the development server
