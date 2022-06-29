@@ -18,15 +18,19 @@
 
 ![image1](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image1.jpg) 
 
-![image2](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image2.jpg)
+![image7](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image7.jpg) 
 
-![image3](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image3.jpg)
+![image2](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image2.jpg) 
 
-![image4](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image4.jpg)
+![image3](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image3.jpg) 
 
-![image5](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image5.jpg)
+![image4](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image4.jpg) 
 
-![image6](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image6.jpg)
+![image5](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image5.jpg) 
+
+![image6](https://raw.githubusercontent.com/Sayan-Maity/Cypherock-Tutorial/main/src/assets/readmeImages/image6.jpg) 
+
+
 
 
 ## 🛠 Installation & Set Up
