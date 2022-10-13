@@ -6,7 +6,7 @@
   cypherock.com/frontend-assignment
 </h1>
 <p align="center">
-  This dashboard is made using ReactJS, HTML and CSS
+  This dashboard is made using ReactJS and CSS
 </p>
 <p align="center">
   <img src="https://media0.giphy.com/media/Yx17W03kc8QSsbLBcb/giphy.gif?cid=ecf05e47w5pl0zoowssommrnea77o2x0utbsogisnmu2bfrr&rid=giphy.gif&ct=s" width="45">&nbsp;
